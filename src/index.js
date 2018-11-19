@@ -9,7 +9,6 @@ import Header from "./components/header";
 import ServicesSections from "./components/services";
 import PortfolioSection from "./components/portfolio";
 import AboutSection from "./components/About/about.js";
-import FooterSection from "./components/Footer/footer.js";
 
 class App extends Component {
   render() {
@@ -20,7 +19,6 @@ class App extends Component {
         <PortfolioSection />
         <AboutSection />
         <ServicesSections />
-        <FooterSection />
       </div>
     );
   }

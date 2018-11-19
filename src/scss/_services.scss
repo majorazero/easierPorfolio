@@ -8,10 +8,25 @@
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
-
-.icon-pencil,
-.icon-screen-smartphone,
-.icon-mustache,
-.icon-like {
+.social-link {
+  display: block;
+  height: 7rem;
+  width: 7rem;
+  line-height: 7.5rem !important;
+  font-size: 2.25rem;
+  color: $primary;
+  background-color: $white;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  &:hover {
+    background-color: darken($primary, 10%);
+    text-decoration: none;
+    color: $white;
+  }
+}
+.icon-social-github,
+.icon-social-linkedin,
+.icon-envelope
+{
   line-height: inherit;
 }

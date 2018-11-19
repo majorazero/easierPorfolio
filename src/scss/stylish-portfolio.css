@@ -166,10 +166,24 @@ h6 {
   font-size: 2.25rem;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
 
-.icon-pencil,
-.icon-screen-smartphone,
-.icon-mustache,
-.icon-like {
+.social-link {
+  display: block;
+  height: 7rem;
+  width: 7rem;
+  line-height: 7.5rem !important;
+  font-size: 2.25rem;
+  color: #1d809f;
+  background-color: #fff;
+  transition: background-color 0.15s ease-in-out;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
+  .social-link:hover {
+    background-color: #155d74;
+    text-decoration: none;
+    color: #fff; }
+
+.icon-social-github,
+.icon-social-linkedin,
+.icon-envelope {
   line-height: inherit; }
 
 .callout {
@@ -232,27 +246,6 @@ h6 {
         background-color: rgba(29, 128, 159, 0.9);
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); } }
-
-footer.footer {
-  padding-top: 5rem;
-  padding-bottom: 5rem; }
-  footer.footer .social-link {
-    display: block;
-    height: 4rem;
-    width: 4rem;
-    line-height: 4.3rem !important;
-    font-size: 1.5rem;
-    background-color: #1d809f;
-    transition: background-color 0.15s ease-in-out;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
-    footer.footer .social-link:hover {
-      background-color: #155d74;
-      text-decoration: none; }
-
-.icon-social-facebook,
-.icon-social-twitter,
-.icon-social-github {
-  line-height: inherit; }
 
 a {
   color: #1d809f; }

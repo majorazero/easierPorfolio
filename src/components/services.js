@@ -2,28 +2,21 @@ import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 const ServicesOffered = [
   {
-    title: "Responsive",
-    description: "Looks great on any screen size!",
-    icon: "icon-screen-smartphone"
+    title: "LinkedIn",
+    description: "Find me on LinkedIn",
+    icon: "icon-social-linkedin",
+    link: "https://www.linkedin.com/in/daniel-hsu-aa645627/"
   },
   {
-    title: "Redesigned",
-    description: "Freshly redesigned for Bootstrap 4.",
-    icon: "icon-pencil"
+    title: "Github",
+    description: "Find me on Github",
+    icon: "icon-social-github",
+    link: "https://github.com/majorazero"
   },
   {
-    title: "Favorited",
-    description: (
-      <span>
-        Millions of users <i className="fas fa-heart" /> Start Bootstrap!
-      </span>
-    ),
-    icon: "icon-like"
-  },
-  {
-    title: "Question",
-    description: "I mustache you a question...",
-    icon: "icon-mustache"
+    title: "Email",
+    description: "Email me",
+    icon: "icon-envelope"
   }
 ];
 const ServicesSections = () => (
@@ -36,12 +29,17 @@ const ServicesSections = () => (
         <div className="row">
           {ServicesOffered.map((service, index) => (
             <div
-              className="col-lg-3 col-md-6 mb-5 mb-lg-0"
+              className="col-lg-4 col-md-4 mb-5 mb-lg-0"
               key={`service_${index}`}
             >
-              <span className="service-icon rounded-circle mx-auto mb-3">
-                <i className={service.icon} />
-              </span>
+            <a className="social-link rounded-circle mx-auto mb-3" href={service.link ? service.link:""}>
+              <i className={service.icon} />
+            </a>
+            {/*    <a className="social-link" href={service.link}>
+                  <span className="service-icon rounded-circle mx-auto mb-3">
+                    <i className={service.icon} />
+                  </span>
+              </a> */}
               <h4>
                 <strong>{service.title}</strong>
               </h4>
