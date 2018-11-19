@@ -1,0 +1,7 @@
+.aboutHeader {
+  background: lightblue;
+}
+
+.aboutContent, .aboutTitle {
+  text-align: left;
+}

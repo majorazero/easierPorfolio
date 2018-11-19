@@ -22,12 +22,8 @@ class Sidebar extends Component {
         url: "#about"
       },
       {
-        title: "Services",
-        url: "#services"
-      },
-      {
         title: "Contact",
-        url: "#contact"
+        url: "#services"
       }
     ];
     return [

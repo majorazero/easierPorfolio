@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import ReactDOM from "react-dom";
 
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -6,12 +6,12 @@ import "./scss/stylish-portfolio.css";
 
 import Sidebar from "./components/sidebar";
 import Header from "./components/header";
-import AboutSection from "./components/about";
 import ServicesSections from "./components/services";
 import PortfolioSection from "./components/portfolio";
-import FooterSection from "./components/footer";
+import AboutSection from "./components/About/about.js";
+import FooterSection from "./components/Footer/footer.js";
 
-class App extends React.Component {
+class App extends Component {
   render() {
     return (
       <div>
