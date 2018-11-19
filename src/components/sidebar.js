@@ -1,6 +1,6 @@
-import React from "react";
+import React, {Component} from "react";
 
-class Sidebar extends React.Component {
+class Sidebar extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -14,16 +14,16 @@ class Sidebar extends React.Component {
         url: "#top"
       },
       {
-        title: "About",
+        title: "Portfolio",
+        url: "#portfolio"
+      },
+      {
+        title: "Resume",
         url: "#about"
       },
       {
         title: "Services",
         url: "#services"
-      },
-      {
-        title: "Portfolio",
-        url: "#portfolio"
       },
       {
         title: "Contact",
@@ -48,7 +48,7 @@ class Sidebar extends React.Component {
         <ul className="sidebar-nav">
           <li className="sidebar-brand">
             <a className="js-scroll-trigger" href="#top">
-              Start Bootstrap
+              Nav
             </a>
           </li>
           {siteNav.map(link => (
