@@ -1,12 +1,8 @@
 import React from "react";
 const socialSites = [
   {
-    link: "https://twitter.com/cincinnaticodes",
-    icon: "icon-social-facebook"
-  },
-  {
-    link: "https://twitter.com/cincinnaticodes",
-    icon: "icon-social-twitter"
+    link: "https://www.linkedin.com/in/daniel-hsu-aa645627/",
+    icon: "icon-social-linkedin"
   },
   {
     link: "https://github.com/majorazero",

@@ -11,7 +11,6 @@ import ServicesSections from "./components/services";
 import PortfolioSection from "./components/portfolio";
 import CallToAction from "./components/callToAction";
 import FooterSection from "./components/footer";
-import ScrollToTop from "./components/scrollToTop";
 
 class App extends React.Component {
   render() {
@@ -24,7 +23,6 @@ class App extends React.Component {
         <ServicesSections />
         <CallToAction />
         <FooterSection />
-        <ScrollToTop />
       </div>
     );
   }
