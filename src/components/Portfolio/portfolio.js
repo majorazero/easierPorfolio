@@ -1,5 +1,6 @@
 import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
+import "./portfolio.css";
 const portfolioItems = [
   {
     imgSrc: "./img/agility.png",
@@ -27,8 +28,8 @@ const portfolioItems = [
   // }
 ];
 const PortfolioSection = () => (
-  <ScrollableAnchor id="portfolio">
-    <section className="content-section">
+  <ScrollableAnchor id="portfolio" className="portfolioBody">
+    <section className="content-section portSec">
       <div className="container">
         <div className="content-section-heading text-center">
           <h3 className="text-secondary mb-0">Portfolio</h3>
@@ -40,7 +41,7 @@ const PortfolioSection = () => (
               <a className="portfolio-item" href={project.url}>
                 <span className="caption">
                   <span className="caption-content">
-                    <h2>{project.heading}</h2>
+                    <h2 className="captionHead">{project.heading}</h2>
                     <p className="mb-0">{project.description}</p>
                   </span>
                 </span>

@@ -89,7 +89,7 @@ h6 {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1d809f;
+  background: #1A2844;
   border-left: 1px solid rgba(255, 255, 255, 0.1); }
 
 .sidebar-nav {
@@ -177,14 +177,20 @@ h6 {
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); }
   .social-link:hover {
-    background-color: #155d74;
+    background-color: #111c39;
     text-decoration: none;
-    color: #fff; }
+    color: #ECB807; }
 
 .icon-social-github,
 .icon-social-linkedin,
 .icon-envelope {
   line-height: inherit; }
+
+.contDes {
+  color: #ECB807; }
+
+.serviceBack {
+  background-color: #5472A0; }
 
 .callout {
   padding: 15rem 0;
@@ -243,7 +249,7 @@ h6 {
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); }
       .portfolio-item:hover .caption {
-        background-color: rgba(29, 128, 159, 0.9);
+        background-color: rgba(29, 48, 96, 0.9);
         -webkit-clip-path: inset(2rem);
         clip-path: inset(2rem); } }
 

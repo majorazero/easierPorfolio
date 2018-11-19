@@ -19,9 +19,9 @@
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
   &:hover {
-    background-color: darken($primary, 10%);
+    background-color: darken(#1D3060, 10%);
     text-decoration: none;
-    color: $white;
+    color: #ECB807;
   }
 }
 .icon-social-github,
@@ -29,4 +29,12 @@
 .icon-envelope
 {
   line-height: inherit;
+}
+
+.contDes {
+  color: #ECB807;
+}
+
+.serviceBack {
+  background-color: #5472A0;
 }

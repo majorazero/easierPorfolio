@@ -1,7 +1,24 @@
 .aboutHeader {
-  background: lightblue;
+  background-color: #5472A0;
+  color: #1A2844;
 }
 
 .aboutContent, .aboutTitle {
   text-align: left;
+}
+
+.aboutBack {
+  background-color: #1F232A;
+}
+
+.aboutBack h1, .aboutBack p{
+  color: white;
+}
+
+.aboutBack h4 {
+  color: #5472A0;
+}
+
+.aboutBack li {
+  color: white;
 }

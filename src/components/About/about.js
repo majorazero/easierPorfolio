@@ -4,7 +4,7 @@ import "./about.css";
 
 const AboutSection = () => (
   <ScrollableAnchor id="about">
-    <section className="content-section bg-light">
+    <section className="content-section aboutBack">
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-10 mx-auto">
