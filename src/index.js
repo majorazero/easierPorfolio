@@ -19,8 +19,8 @@ class App extends React.Component {
       <div>
         <Sidebar />
         <Header />
-        <AboutSection />
         <PortfolioSection />
+        <AboutSection />
         <ServicesSections />
         <CallToAction />
         <FooterSection />

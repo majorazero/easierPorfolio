@@ -4,19 +4,20 @@ const portfolioItems = [
   {
     imgSrc: "./img/agility.png",
     heading: "Agility",
-    description: "A agile-based workflow management apps."
+    description: "A agile-based workflow management apps.",
+    url: "https://scrum41.herokuapp.com/"
   },
   {
     imgSrc: "./img/curator.png",
     heading: "Curator",
-    description:
-      "A rating app for poeple who share the same sensibilities."
+    description: "A rating app for poeple who share the same sensibilities.",
+    url: "https://shrouded-falls-26640.herokuapp.com/"
   },
   {
     imgSrc: "./img/itinerary.png",
     heading: "Itinerary",
-    description:
-      "A travel planner app that lets you plan your entire trip day by day."
+    description: "A travel planner app that lets you plan your entire trip day by day.",
+    url: "https://majorazero.github.io/Itenerary/"
   },
   // {
   //   imgSrc: "./img/portfolio-4.jpg",
@@ -36,7 +37,7 @@ const PortfolioSection = () => (
         <div className="row no-gutters">
           {portfolioItems.map((project, index) => (
             <div className="col-lg-6" key={`portfolio_item_${index}`}>
-              <a className="portfolio-item" href="">
+              <a className="portfolio-item" href={project.url}>
                 <span className="caption">
                   <span className="caption-content">
                     <h2>{project.heading}</h2>
