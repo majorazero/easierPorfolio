@@ -20,8 +20,8 @@ class App extends React.Component {
         <Sidebar />
         <Header />
         <AboutSection />
-        <ServicesSections />
         <PortfolioSection />
+        <ServicesSections />
         <CallToAction />
         <FooterSection />
         <ScrollToTop />

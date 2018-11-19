@@ -9,7 +9,7 @@ const socialSites = [
     icon: "icon-social-twitter"
   },
   {
-    link: "https://github.com/cincinnaticodes",
+    link: "https://github.com/majorazero",
     icon: "icon-social-github"
   }
 ];
