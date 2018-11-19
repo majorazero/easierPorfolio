@@ -25,9 +25,6 @@ const FooterSection = () => (
         </li>
       ))}
       </ul>
-      <p className="text-muted small mb-0">
-        Copyright &copy; Your Website 2018
-      </p>
     </div>
   </footer>
 );
