@@ -45,7 +45,7 @@ const PortfolioSection = () => (
                     <p className="mb-0">{project.description}</p>
                   </span>
                 </span>
-                <img className="img-fluid" src={project.imgSrc} alt="" />
+                <img className="img-fluid" src={project.imgSrc} alt="image" />
               </a>
             </div>
           ))}

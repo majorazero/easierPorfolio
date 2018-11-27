@@ -15,8 +15,12 @@ const ServicesOffered = [
   },
   {
     title: "Email",
-    description: "Email me",
-    icon: "icon-envelope"
+    description: "Email me: daniel.cw.hsu@gmail.com",
+    icon: "icon-envelope",
+    onClick: () => {
+      window.open('mailto:daniel.cw.hsu@gmail.com')
+    },
+    link: "/#services"
   }
 ];
 const ServicesSections = () => (
@@ -32,14 +36,11 @@ const ServicesSections = () => (
               className="col-lg-4 col-md-4 mb-5 mb-lg-0"
               key={`service_${index}`}
             >
-            <a className="social-link rounded-circle mx-auto mb-3" href={service.link ? service.link:""}>
+            <a className="social-link rounded-circle mx-auto mb-3" href={service.link ? service.link:""}
+              onClick={service.onClick ? service.onClick:""}
+              >
               <i className={service.icon} />
             </a>
-            {/*    <a className="social-link" href={service.link}>
-                  <span className="service-icon rounded-circle mx-auto mb-3">
-                    <i className={service.icon} />
-                  </span>
-              </a> */}
               <h4>
                 <strong>{service.title}</strong>
               </h4>
