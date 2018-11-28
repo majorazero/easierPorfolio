@@ -1,0 +1,9 @@
+.headerButt, .headerButt:visited{
+  background-color: #6376A0;
+  color: white;
+}
+
+.headerButt:hover {
+  background-color: #1D3060;
+  color: #ECB807;
+}

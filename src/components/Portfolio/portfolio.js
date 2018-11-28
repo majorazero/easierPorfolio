@@ -6,7 +6,7 @@ const portfolioItems = [
     imgSrc: "./img/agility.png",
     heading: "Agility",
     description: "A agile-based workflow management apps.",
-    url: "https://scrum41.herokuapp.com/"
+    url: "https://myagility.herokuapp.com/"
   },
   {
     imgSrc: "./img/curator.png",

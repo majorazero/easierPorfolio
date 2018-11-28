@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./scss/stylish-portfolio.css";
 
 import Sidebar from "./components/sidebar";
-import Header from "./components/header";
+import Header from "./components/Header/header.js";
 import ServicesSections from "./components/services";
 import PortfolioSection from "./components/Portfolio/portfolio";
 import AboutSection from "./components/About/about.js";
