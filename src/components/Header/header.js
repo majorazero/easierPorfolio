@@ -5,7 +5,7 @@ const Header = () => (
   <header className="masthead d-flex">
     <div className="container text-center my-auto">
       <small>It's pronounced "shoe"</small>
-      <h1 className="mb-1">Hi, I'm Dan</h1>
+      <h1 className="mb-1">Hi, I'm Dan Hsu</h1>
       <h3 className="mb-5">
         <em>I'm a developer based in LA</em>
       </h3>
