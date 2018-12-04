@@ -5,7 +5,7 @@ const ServicesOffered = [
     title: "LinkedIn",
     description: "Find me on LinkedIn",
     icon: "icon-social-linkedin",
-    link: "https://www.linkedin.com/in/daniel-hsu-aa645627/"
+    link: "https://www.linkedin.com/in/daniel-cw-hsu/"
   },
   {
     title: "Github",
