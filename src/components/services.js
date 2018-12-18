@@ -19,8 +19,7 @@ const ServicesOffered = [
     icon: "icon-envelope",
     onClick: () => {
       window.open('mailto:daniel.cw.hsu@gmail.com')
-    },
-    link: "/#services"
+    }
   }
 ];
 const ServicesSections = () => (

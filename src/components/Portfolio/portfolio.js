@@ -19,13 +19,7 @@ const portfolioItems = [
     heading: "Itinerary",
     description: "A travel planner app that lets you plan your entire trip day by day.",
     url: "https://majorazero.github.io/Itenerary/"
-  },
-  // {
-  //   imgSrc: "./img/portfolio-4.jpg",
-  //   heading: "Workspace",
-  //   description:
-  //     "A yellow workspace with some scissors, pencils, and other objects."
-  // }
+  }
 ];
 const PortfolioSection = () => (
   <ScrollableAnchor id="portfolio" className="portfolioBody">
@@ -45,7 +39,7 @@ const PortfolioSection = () => (
                     <p className="mb-0">{project.description}</p>
                   </span>
                 </span>
-                <img className="img-fluid" src={project.imgSrc} alt="image" />
+                <img className="img-fluid" src={project.imgSrc} alt="project" />
               </a>
             </div>
           ))}
