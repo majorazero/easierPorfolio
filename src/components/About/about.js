@@ -119,7 +119,7 @@ class AboutSection extends Component{
                   MERN Stack Javascript Developer Program - November 2018
                 </p>
                 <p>
-                  <a href="./pdf/daniel-hsu-resume.pdf" download=''>Download</a>
+                  <a href="./pdf/daniel-hsu-resume.pdf" download=''>Download My Resume!</a>
                 </p>
               </div>
             </div>
