@@ -18,7 +18,7 @@ const AboutSection = () => (
                   Designed and created a work management app that simulates an AGILE workflow experience.
                 </li>
                 <li>
-                  Designed database structure in SQL/Sequelize.js, major frontend features using React.js and backend routing and server setting with Node.js
+                  Architected database structure in SQL/Sequelize.js, major frontend features using React.js and backend routing and server setting with Node.js
                 </li>
                 <li>
                   Managed a team of 3 other people, with responsibilities of assigning tasks, dealing with bugs and running daily meetings to keep track of progress
@@ -30,7 +30,7 @@ const AboutSection = () => (
                   Designed and created a Yelp based rating app that allows users to rate a restaurant amongst people who share similar interests.
                 </li>
                 <li>
-                  Designed database structure in SQL/Sequelize.js, major frontend features with HTML, Javascript, jQuery and Handlebars.js as well as writing backend server code and various routes in Node.js.
+                  Architected database structure in SQL/Sequelize.js, major frontend features with HTML, Javascript, jQuery and Handlebars.js as well as writing backend server code and routes in Node.js.
                 </li>
                 <li>
                   Managed a team of 3 other people, with responsibilities of assigning tasks, dealing with bugs and running daily meetings to keep track of progress
@@ -73,19 +73,39 @@ const AboutSection = () => (
             <h3 className="aboutHeader">Skills</h3>
             <h4 className="aboutTitle">Web Development</h4>
             <p className="lead mb-5 aboutContent">
-              Javascript, React.js, Node.js, Express, HTML, CSS, Bootstrap, jQuery, Handlebar.js, Material-UI
+              JavaScript, HTML, CSS
+            </p>
+            <h4 className="aboutTitle">Frontend Frameworks</h4>
+            <p className="lead mb-5 aboutContent">
+              React.js, jQuery, Handlebar.js
+            </p>
+            <h4 className="aboutTitle">CSS Frameworks</h4>
+            <p className="lead mb-5 aboutContent">
+              Bootstrap, Material-UI
+            </p>
+            <h4 className="aboutTitle">Mobile Frameworks</h4>
+            <p className="lead mb-5 aboutContent">
+              React-Native
+            </p>
+            <h4 className="aboutTitle">Backend</h4>
+            <p className="lead mb-5 aboutContent">
+              Node.js, Express
             </p>
             <h4 className="aboutTitle">Database Management</h4>
             <p className="lead mb-5 aboutContent">
-              mySQL, Sequelize.js, MongoDb, Mongoose.js, Firebase
+              mySQL, Sequelize.js, MongoDB, Mongoose.js, Firebase
             </p>
-            <h4 className="aboutTitle">Languages</h4>
-            <p className="lead mb-5 aboutContent">
-              English, Mandarin
+            <h4 className="aboutTitle">Adobe Creative Suite</h4>
+            <p className='lead mb-5 aboutContent'>
+              Photoshop, Illustrator
             </p>
             <h4 className="aboutTitle">Other</h4>
             <p className="lead mb-5 aboutContent">
               Git, Heroku, MATLAB, Phaser.IO, Java, C++
+            </p>
+            <h4 className="aboutTitle">Languages</h4>
+            <p className="lead mb-5 aboutContent">
+              English, Mandarin
             </p>
             <h3 className="aboutHeader">Education</h3>
             <h4 className="aboutTitle">University of California - Los Angeles</h4>
