@@ -13,6 +13,35 @@ class AboutSection extends Component{
                 <h1>
                   Resume
                 </h1>
+
+                <h3 className="aboutHeader">Professional Experience</h3>
+
+                  <h4 className="aboutTitle">Beauty By Design: Junior Full-Stack Engineer</h4>
+                  <p className="lead mb-5 aboutContent">
+                    <li>
+                      Designed clean and maintainable front-end (React.js) and back-end (Ruby on Rails) codes for features in an Agile workflow, utilizing test- driven-development (RSpec).
+                    </li>
+                    <li>
+                      Participated in Agile point estimation with engineering team and product owner, identifying potential problems and recommending solutions
+                    </li>
+                    <li>
+                      Utilized pair programming to ensure higher quality code.
+                    </li>
+                    <li>
+                      Built a promo interface that greatly assisted the businesses’ ability to implement promos quickly and efficiently
+                    </li>
+                  </p>
+
+                  <h4 className="aboutTitle">Esmond Natural: Project Manager</h4>
+                  <p className="lead mb-5 aboutContent">
+                    <li>
+                      Lead an international team to launch various products and marketing campaigns both in the US and overseas
+                    </li>
+                    <li>
+                      Participated in negotiations with suppliers and manufacturers to obtain competitive prices for the business
+                    </li>
+                  </p>
+
                 <h3 className="aboutHeader">Project Experience</h3>
                   <h4 className="aboutTitle">Agility – Agile Based Workflow Manager App</h4>
                   <p className="lead mb-5 aboutContent">
@@ -50,28 +79,7 @@ class AboutSection extends Component{
                       Managed a team of 2 other people, with responsibilities of assigning tasks, dealing with bugs and running daily meetings to keep track of progress
                     </li>
                   </p>
-                <h3 className="aboutHeader">Professional Experience</h3>
-                  <h4 className="aboutTitle">Esmond Natural: Project Manager</h4>
-                  <p className="lead mb-5 aboutContent">
-                    <li>
-                      Managed an international team launching products both in the US and overseas
-                    </li>
-                    <li>
-                      Handled communications with Southeast Asia regional head of Nature's Bounty in regards to assisting their product launches in new markets
-                    </li>
-                    <li>
-                      Handled negotiations with manufactures for materials or newly commissioned products
-                    </li>
-                  </p>
-                  <h4 className="aboutTitle">Beyond Curriculum: Teacher</h4>
-                  <p className="lead mb-5 aboutContent">
-                    <li>
-                      Designed accelerated Math and Science curriculums for SAT/AP.
-                    </li>
-                    <li>
-                      Experience teaching in both a group setting and one on one settings.
-                    </li>
-                  </p>
+
                 <h3 className="aboutHeader">Skills</h3>
                 <h4 className="aboutTitle">Web Development</h4>
                 <p className="lead mb-5 aboutContent">
@@ -79,19 +87,15 @@ class AboutSection extends Component{
                 </p>
                 <h4 className="aboutTitle">Frontend Frameworks</h4>
                 <p className="lead mb-5 aboutContent">
-                  React.js, jQuery, Handlebar.js
+                  React.js, jQuery
                 </p>
                 <h4 className="aboutTitle">CSS Frameworks</h4>
                 <p className="lead mb-5 aboutContent">
-                  Bootstrap, Material-UI
-                </p>
-                <h4 className="aboutTitle">Mobile Frameworks</h4>
-                <p className="lead mb-5 aboutContent">
-                  React-Native
+                  Bootstrap
                 </p>
                 <h4 className="aboutTitle">Backend</h4>
                 <p className="lead mb-5 aboutContent">
-                  Node.js, Express
+                  Node.js, Express, Ruby on Rails
                 </p>
                 <h4 className="aboutTitle">Database Management</h4>
                 <p className="lead mb-5 aboutContent">
@@ -103,7 +107,7 @@ class AboutSection extends Component{
                 </p>
                 <h4 className="aboutTitle">Other</h4>
                 <p className="lead mb-5 aboutContent">
-                  Git, Heroku, MATLAB, Phaser.IO, Java, C++
+                  Git, Heroku, Java, C++
                 </p>
                 <h4 className="aboutTitle">Languages</h4>
                 <p className="lead mb-5 aboutContent">
