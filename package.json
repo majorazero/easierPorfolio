@@ -1,7 +1,9 @@
 {
   "name": "react-stylish-portfolio",
   "version": "1.0.0",
-  "engine": { "node": ">=8.12.0" },
+  "engine": {
+     "node": "8.12.0"
+   },
   "description": "Stylish Portfolio is a one page Bootstrap portfolio theme with off canvas navigation and smooth scrolling through content sections.",
   "keywords": [],
   "main": "src/index.js",
