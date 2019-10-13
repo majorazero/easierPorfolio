@@ -58,8 +58,10 @@ const PortfolioSection = () => (
           ))}
         </div>
 
+        <br />
+
         <div className="content-section-heading text-center">
-          <h2 className="mb-5">Recent Projects</h2>
+          <h2 className="mb-5">Personal Projects</h2>
         </div>
         <div className="row no-gutters">
           {portfolioItems.map((project, index) => (
