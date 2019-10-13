@@ -1,6 +1,16 @@
 import React from "react";
 import ScrollableAnchor from "react-scrollable-anchor";
 import "./portfolio.css";
+
+const professionalItems = [
+  {
+    imgSrc: './img/BBD.png',
+    heading: 'Beauty By Design',
+    description: 'Personalized esthetician service and skincare company.',
+    url: "https://beautybydesign.com",
+  }
+];
+
 const portfolioItems = [
   {
     imgSrc: "./img/agility.png",
@@ -27,6 +37,28 @@ const PortfolioSection = () => (
       <div className="container">
         <div className="content-section-heading text-center">
           <h3 className="text-secondary mb-0">Portfolio</h3>
+        </div>
+
+        <div className="content-section-heading text-center">
+          <h2 className="mb-5">Jobs</h2>
+        </div>
+        <div className="row no-gutters">
+          {professionalItems.map((project, index) => (
+            <div className="col-lg-6" key={`portfolio_item_${index}`}>
+              <a className="portfolio-item" href={project.url}>
+                <span className="caption">
+                  <span className="caption-content">
+                    <h2 className="captionHead">{project.heading}</h2>
+                    <p className="mb-0">{project.description}</p>
+                  </span>
+                </span>
+                <img id='bbd' className="img-fluid" src={project.imgSrc} alt="project" />
+              </a>
+            </div>
+          ))}
+        </div>
+
+        <div className="content-section-heading text-center">
           <h2 className="mb-5">Recent Projects</h2>
         </div>
         <div className="row no-gutters">
@@ -44,6 +76,7 @@ const PortfolioSection = () => (
             </div>
           ))}
         </div>
+
       </div>
     </section>
   </ScrollableAnchor>
