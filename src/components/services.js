@@ -5,13 +5,15 @@ const ServicesOffered = [
     title: "LinkedIn",
     description: "Find me on LinkedIn",
     icon: "icon-social-linkedin",
-    link: "https://www.linkedin.com/in/daniel-cw-hsu/"
+    link: "https://www.linkedin.com/in/daniel-cw-hsu/",
+    onClick: () => {},
   },
   {
     title: "Github",
     description: "Find me on Github",
     icon: "icon-social-github",
-    link: "https://github.com/majorazero"
+    link: "https://github.com/majorazero",
+    onClick: () => {},
   },
   {
     title: "Email",
@@ -19,7 +21,7 @@ const ServicesOffered = [
     icon: "icon-envelope",
     onClick: () => {
       window.open('mailto:daniel.cw.hsu@gmail.com')
-    }
+    },
   }
 ];
 const ServicesSections = () => (
